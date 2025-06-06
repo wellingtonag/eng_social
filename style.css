@@ -5,6 +5,9 @@
   /* Azul um pouco mais claro */
   --accent-green: #6EE7B7;
   /* Verde água para destaque */
+    --dark-green: #49a580;
+  /* Verde escuro para :hover */
+
   --accent-orange: #FF7043;
   /* Laranja para alertas/ênfase */
   --text-light: #F0F0F0;
@@ -110,6 +113,25 @@ p.text-muted{
   color: #8a8a8a !important;
 }
 
+.link_footer{
+    color: var(--accent-orange);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.link_footer:hover{
+    color: var(--accent-green);
+}
+
+.link_body{
+    color: var(--dark-green);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.link_body:hover{
+    color: var(--accent-green);
+}
 .card-header {
   background-color: var(--accent-green);
   color: var(--primary-blue);
